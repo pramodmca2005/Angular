@@ -1,5 +1,5 @@
 package com;
-// It 's mutal class
+// It 's mutual class example
 import java.util.Date;
 
 class TestMain
@@ -18,7 +18,7 @@ class TestMain
     }
      private static void tryModification(Integer immutableField1, String immutableField2, Date mutableField)
     {
-        immutableField1 = 10000;
+        immutableField1 = 20000;
         immutableField2 = "test changed";
         mutableField.setDate(10);
     }
